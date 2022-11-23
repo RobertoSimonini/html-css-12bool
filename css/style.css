@@ -1,0 +1,7 @@
+/* Generics  */
+
+.row > [class^="col"] {
+    background-color: #006CFA;
+    min-height: 50px;
+    border: 1px solid #fff;
+}

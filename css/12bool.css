@@ -1,0 +1,38 @@
+/* Css reset  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utils  */
+
+
+/* Row  */
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.row > * {
+    max-width: 100%;
+}
+
+
+/* Cols */
+
+.row > [class^="col"] {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+.row > .col {
+    flex-grow: 1;
+}
+
