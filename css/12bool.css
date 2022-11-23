@@ -110,62 +110,62 @@
 
 /* NESTED  */
 
-.row > .nes-12 {
+.row > .nes-col-12 {
     flex-basis: 100%;
     max-width: 100%;
 }
 
-.row > .nes-11 {
+.row > .nes-col-11 {
     flex-basis: calc(100% / 12 * 11);
     max-width: 100%;
 }
 
-.row > .nes-10 {
+.row > .nes-col-10 {
     flex-basis: calc(100% / 12 * 10);
     max-width: 100%;
 }
 
-.row > .nes-9 {
+.row > .nes-col-9 {
     flex-basis: calc(100% / 12 * 9);
     max-width: 100%;
 }
 
-.row > .nes-8 {
+.row > .nes-col-8 {
     flex-basis: calc(100% / 12 * 8);
     max-width: 100%;
 }
 
-.row > .nes-7 {
+.row > .nes-col-7 {
     flex-basis: calc(100% / 12 * 7);
     max-width: 100%;
 }
 
-.row > .nes-6 {
+.row > .nes-col-6 {
     flex-basis: calc(100% / 12 * 6);
     max-width: 100%;
 }
 
-.row > .nes-5 {
+.row > .nes-col-5 {
     flex-basis: calc(100% / 12 * 5);
     max-width: 100%;
 }
 
-.row > .nes-4 {
+.row > .nes-col-4 {
     flex-basis: calc(100% / 12 * 4);
     max-width: 100%;
 }
 
-.row > .nes-3 {
+.row > .nes-col-3 {
     flex-basis: calc(100% / 12 * 3);
     max-width: 100%;
 }
 
-.row > .nes-2 {
+.row > .nes-col-2 {
     flex-basis: calc(100% / 12 * 2);
     max-width: 100%;
 }
 
-.row > .nes-1 {
+.row > .nes-col-1 {
     flex-basis: calc(100% / 12);
     max-width: 100%;
 }
@@ -185,8 +185,12 @@
 }
 
 
-/* PADDING  */
+/* SPACE  */
 
 .pd-15 {
     padding: 15px;
+}
+
+.margin-b-15 {
+    margin-bottom: 15px;
 }
