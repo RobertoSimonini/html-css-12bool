@@ -24,7 +24,7 @@
 }
 
 
-/* Cols */
+/* COLS */
 
 .row > [class^="col"] {
     flex-grow: 0;
@@ -99,3 +99,16 @@
 }
 
 
+/* FLEX  */
+
+.d-flex {
+    display: flex;
+}
+
+.al-its-center {
+    align-items: center;
+}
+
+.j-c-center {
+    justify-content: center;
+}
