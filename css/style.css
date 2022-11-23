@@ -6,3 +6,10 @@
     border: 1px solid #fff;
     color: #fff;
 }
+
+.row > [class^="nes"] {
+    background-color: #00E165;
+    min-height: 50px;
+    border: 1px solid #006CFA;
+    color: #fff;
+}

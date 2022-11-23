@@ -36,6 +36,16 @@
     flex-grow: 1;
 }
 
+.row > [class^="nes"] {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+.row > .nes {
+    flex-grow: 1;
+}
+
 /* GRIGLIA  */
 
 .row > .col-12 {
@@ -98,6 +108,67 @@
     max-width: 100%;
 }
 
+/* NESTED  */
+
+.row > .nes-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.row > .nes-11 {
+    flex-basis: calc(100% / 12 * 11);
+    max-width: 100%;
+}
+
+.row > .nes-10 {
+    flex-basis: calc(100% / 12 * 10);
+    max-width: 100%;
+}
+
+.row > .nes-9 {
+    flex-basis: calc(100% / 12 * 9);
+    max-width: 100%;
+}
+
+.row > .nes-8 {
+    flex-basis: calc(100% / 12 * 8);
+    max-width: 100%;
+}
+
+.row > .nes-7 {
+    flex-basis: calc(100% / 12 * 7);
+    max-width: 100%;
+}
+
+.row > .nes-6 {
+    flex-basis: calc(100% / 12 * 6);
+    max-width: 100%;
+}
+
+.row > .nes-5 {
+    flex-basis: calc(100% / 12 * 5);
+    max-width: 100%;
+}
+
+.row > .nes-4 {
+    flex-basis: calc(100% / 12 * 4);
+    max-width: 100%;
+}
+
+.row > .nes-3 {
+    flex-basis: calc(100% / 12 * 3);
+    max-width: 100%;
+}
+
+.row > .nes-2 {
+    flex-basis: calc(100% / 12 * 2);
+    max-width: 100%;
+}
+
+.row > .nes-1 {
+    flex-basis: calc(100% / 12);
+    max-width: 100%;
+}
 
 /* FLEX  */
 
@@ -111,4 +182,11 @@
 
 .j-c-center {
     justify-content: center;
+}
+
+
+/* PADDING  */
+
+.pd-15 {
+    padding: 15px;
 }
